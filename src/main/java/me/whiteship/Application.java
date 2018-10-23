@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Application {
+public class Application {  
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:postgresql://localhost:32768/springdata";
         String username = "keesun";
